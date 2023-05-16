@@ -19,7 +19,7 @@ const Home = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>Home | Jasmine Haus - Phillipino Non-Profit</title>
+                <title>Jasmine Haus | Phillipino Non-Profit</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -38,11 +38,6 @@ const Home = () => {
             <main id="main" className="site-main">
                 <PageTitleHome />
 
-                <Works />
-
-                <Contacts />
-
-                <Journal />
             </main>
 
             <Footer />
