@@ -5,6 +5,13 @@
 /*=============================
 // All page
 =============================*/
+// main.scss
+
+$main_padding_t: 0; // Set top padding to 0
+$main_padding_b: 0; // Set bottom padding to 0
+
+/* Rest of the SCSS code */
+
 main {
     padding-top: $main_padding_t;
     padding-bottom: $main_padding_b;
@@ -16,6 +23,7 @@ main {
 .home {
     main {
         padding-bottom: 0;
+        
     }
 }
 
