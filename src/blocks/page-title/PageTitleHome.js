@@ -10,11 +10,11 @@ const PageTitleHome = () => {
                         <div className="title">
                             <h1 className="h">Hello<span className="dot">.</span></h1>
 
-                            <div className="title-clone">Hello</div>
+                            <div className="title-clone">Jasmine Haus</div>
                         </div>
 
                         <div className="spacer p-top-lg">
-                            <p className="p-large w-75">My name is Luca Reynolds. I’m a photographer and heres is my portfolio. Have a look.</p>
+                            <p className="p-large w-75">jasminesdd</p>
                         </div>
                     </div>
 
