@@ -25,10 +25,11 @@
         "react-masonry-layout": "^0.4.0",
         "react-meta-tags": "^0.7.4",
         "react-router-dom": "^5.1.2",
-        "react-scripts": "3.2.0",
+        "react-scripts": "^5.0.1",
         "react-scroll": "^1.7.16",
         "react-sticky-box": "^0.9.3",
-        "react-visibility-sensor": "^5.1.1"
+        "react-visibility-sensor": "^5.1.1",
+        "sass": "^1.62.1"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -52,9 +53,6 @@
             "last 1 safari version",
             "ie 10"
         ]
-    },
-    "devDependencies": {
-        "node-sass": "^4.13.0"
     },
     "homepage": "https://store.adveits.com/project/oxer/react-js/demo"
 }
