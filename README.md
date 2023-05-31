@@ -6,6 +6,6 @@ How to start working with project.
  4. Run yarn start to build the new project, run local server and start watching changes 
  - 4.1 Run yarn build to build project 
  - 4.2 Run yarn test to test project
- - 4.3 Run yarn eject to clean build project
+ - 4.3 Run yarn eject to clean build project.
  
 More information: [Create React App documentation]( https://facebook.github.io/create-react-app/docs/getting-started )
