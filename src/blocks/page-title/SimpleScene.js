@@ -4,10 +4,20 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 const SimpleScene = () => {
   const sceneRef = useRef(null);
+  const mouse = new THREE.Vector2();
 
   useEffect(() => {
     const scene = new THREE.Scene();
     scene.background = new THREE.Color(0xFFFFFF);
+
+    // Add directional light with higher intensity
+    const light = new THREE.DirectionalLight(0xffffff, 1.5);
+    light.position.set(1, 1, 1).normalize();
+    scene.add(light);
+
+    // Add ambient light to softly illuminate the scene
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.4);
+    scene.add(ambientLight);
 
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     const renderer = new THREE.WebGLRenderer();
@@ -17,27 +27,27 @@ const SimpleScene = () => {
       sceneRef.current.appendChild(renderer.domElement);
     }
 
-    const axesHelper = new THREE.AxesHelper(5);
-    scene.add(axesHelper);
+    const onMouseMove = (event) => {
+      mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+      mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+    };
 
-    const geometry = new THREE.BoxGeometry();
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-    const cube = new THREE.Mesh(geometry, material);
-    scene.add(cube);
+    document.addEventListener('mousemove', onMouseMove);
 
     const loader = new GLTFLoader();
     loader.load(
       '/jasminehausscene.glb',
       (gltf) => {
-        console.log("GLTF object loaded: ", gltf);
-        
         gltf.scene.traverse((child) => {
           if (child instanceof THREE.Mesh) {
-            child.material = new THREE.MeshBasicMaterial({ color: 0xFFB6C1 });  // Light Pink
+            child.material = new THREE.MeshStandardMaterial({
+              color: 0xFFCCE5,
+              // Increase reflectivity and metalness
+              reflectivity: 0.0,
+              metalness: 0,
+            });
           }
         });
-
-        gltf.scene.scale.set(1, 1, 1);
         scene.add(gltf.scene);
       },
       (xhr) => {
@@ -52,10 +62,20 @@ const SimpleScene = () => {
 
     const animate = () => {
       requestAnimationFrame(animate);
+
+      camera.position.x += (mouse.x * 10 - camera.position.x) * 0.05;
+      camera.position.y += (-mouse.y * 10 - camera.position.y) * 0.05;
+
+      camera.lookAt(scene.position);
+
       renderer.render(scene, camera);
     };
 
     animate();
+
+    return () => {
+      document.removeEventListener('mousemove', onMouseMove);
+    };
   }, []);
 
   return (

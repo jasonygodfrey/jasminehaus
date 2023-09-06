@@ -56,7 +56,8 @@ const PageTitleHome = () => {
                 <div className="align-self-start w-100">
                   <div className="img object-fit">
                     <div className="object-fit-cover">
-                      <img src="assets/img/phflag.png" className="img-fluid" alt="Flag" />
+                  {/* <img src="assets/img/phflag.png" className="img-fluid" alt="Flag" /> */}
+
                     </div>
                   </div>
                 </div>

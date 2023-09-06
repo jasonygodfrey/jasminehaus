@@ -3,6 +3,13 @@
 //=================================================
 
 header {
+    background-color: transparent;  // Changed this line
+    position: fixed;  // Added this line
+    top: 0;  // Added this line
+    left: 0;  // Added this line
+    width: 100%;  // Added this line
+    z-index: 999;  // Added this line
+    background-color: transparent;
     > .wrapper {
 
         

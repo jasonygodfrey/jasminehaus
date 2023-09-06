@@ -3,7 +3,7 @@
 //=================================================
 
 footer {
-    background-color: $body_background_color;
+    background-color: transparent;  // Changed this line
 
     .wrapper {
         padding-top: $footer_padding_t;
