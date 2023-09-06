@@ -17,8 +17,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 9.75rem;
-    word-break: break-all;
+   
     word-break: break-word;
+    
     hyphens: auto;
     line-height: 1.15;
     @include lhCrop-b(1.15, 0.645);
@@ -55,6 +56,8 @@ h1 {
     &.h, &.H {
         margin-left: -0.069em;
         margin-top: 60px;
+        overflow-wrap: break-word;
+
     }
     
     &.c, &.C {

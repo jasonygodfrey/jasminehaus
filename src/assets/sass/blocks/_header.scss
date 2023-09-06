@@ -4,8 +4,7 @@
 
 header {
     > .wrapper {
-        padding-top: $header_padding_t;
-        padding-bottom: $header_padding_b;
+
         
         @media #{$media_sm} {
             .menu-toggle {
