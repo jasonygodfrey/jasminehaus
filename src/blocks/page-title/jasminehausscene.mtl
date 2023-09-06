@@ -1,0 +1,151 @@
+# Blender MTL File: 'untitled.blend'
+# Material Count: 14
+
+newmtl Foam
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Ke C:\\Users\\Jason\\Downloads\\cloud_tea\\textures\\Foam_baseColor.png
+
+newmtl Glow
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Ke C:\\Users\\Jason\\Downloads\\cloud_tea\\textures\\Glow_emissive.png
+map_d C:\\Users\\Jason\\Downloads\\cloud_tea\\textures\\Glow_baseColor.png
+
+newmtl Golden_Droplet
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Ke C:\\Users\\Jason\\Downloads\\cloud_tea\\textures\\Golden_Droplet_baseColor.png
+
+newmtl Liquid
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Ke C:\\Users\\Jason\\Downloads\\cloud_tea\\textures\\Liquid_baseColor.png
+
+newmtl None
+Ns 500
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl OUTLINE-FOAM
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.246201 0.386429 0.745404
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Outline-GOLD
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.822786 0.456411 0.174647
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Outline_TeaBag
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.318547 0.088656 0.097587
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Paw_Painted
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Ke C:\\Users\\Jason\\Downloads\\cloud_tea\\textures\\Paw_Painted_baseColor.png
+
+newmtl Petal
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Ke C:\\Users\\Jason\\Downloads\\cloud_tea\\textures\\Petal_baseColor.png
+
+newmtl Plate
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Ke C:\\Users\\Jason\\Downloads\\cloud_tea\\textures\\Plate_baseColor.png
+
+newmtl Sugar_Cube
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Ke C:\\Users\\Jason\\Downloads\\cloud_tea\\textures\\Sugar_Cube_baseColor.png
+
+newmtl Tea_Bag
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Ke C:\\Users\\Jason\\Downloads\\cloud_tea\\textures\\Tea_Bag_baseColor.png
+
+newmtl material
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Ke C:\\Users\\Jason\\Downloads\\cloud_tea\\textures\\material_baseColor.png
